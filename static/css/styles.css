@@ -1,0 +1,28 @@
+/* styles.css */
+.sidebar {
+    min-height: 100vh;
+    border-right: 1px solid #dee2e6;
+}
+
+.sidebar-nav .list-group-item {
+    border: none;
+    padding: 0.75rem 1.25rem;
+}
+
+.sidebar-nav .list-group-item .nav-link {
+    display: block;
+    color: #495057;
+    text-decoration: none;
+}
+
+.sidebar-nav .list-group-item .nav-link:hover {
+    background-color: #e9ecef;
+    color: #0056b3;
+    border-radius: 0.25rem;
+}
+
+.sidebar-nav .list-group-item.active .nav-link {
+    background-color: #007bff;
+    color: white;
+    border-radius: 0.25rem;
+}
